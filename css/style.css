@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.parent-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.parent-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.width-33{
+    width: 33%;
+}
+.width-50{
+    width: 50%;
+}
+.width-66{
+    width: 66%;
+}
+
+.block1{
+    background-color: beige;
+}
+.block2{
+    background-color: burlywood;
+}
+.block3{
+    background-color: coral;
+}
+.block4{
+    background-color: aquamarine;
+}
+.block5{
+    background-color: darkolivegreen;
+}
+.block6{
+    background-color: cyan;
+}
+.block7{
+    background-color: darkcyan;
+}
+.block8{
+    background-color: darkgreen;
+}
+.block9{
+    background-color: darkturquoise;
+}
+.block10{
+    background-color: darkturquoise;
+}
+.block11{
+    background-color: cornflowerblue;
+}
+.block12{
+    background-color: cadetblue;
+}
+.block13{
+    background-color: lightseagreen;
+}
+.block14{
+    background-color: darkorange;
+}
+.block15{
+    background-color: goldenrod;
+}
+.block16{
+    background-color: gold;
+}
+.block17{
+    background-color: khaki;
+}
+.block18{
+    background-color: lightyellow;
+}
+.block19{
+    background-color: sandybrown;
+}
